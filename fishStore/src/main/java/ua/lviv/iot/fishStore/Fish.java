@@ -1,10 +1,11 @@
 package ua.lviv.iot.fishStore;
 
 import ua.lviv.iot.fishStore.Type;
+
 import ua.lviv.iot.fishStore.Item;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Builder;
+//import lombok.Builder;
 @NoArgsConstructor
 @Data
 public class Fish extends Item {

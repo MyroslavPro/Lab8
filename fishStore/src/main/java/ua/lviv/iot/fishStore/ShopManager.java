@@ -30,7 +30,6 @@ public class ShopManager {
 	public List<Fish> sortFishByPrice(final Order order) {
 		if (order == Order.ASC) {
 			fishList.sort((Fish fish1, Fish fish2) -> fish1.getPrice() - fish2.getPrice());
-			fishList.sort((Fish fish1, Fish fish2) -> fish1.price - fish2.price); 
 		}
 		if (order == Order.DESC) {
 			fishList.sort((Fish fish1, Fish fish2) -> fish2.getPrice() - fish1.getPrice());

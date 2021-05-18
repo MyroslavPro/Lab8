@@ -2,12 +2,12 @@ package ua.lviv.iot.fishStore;
 
 import lombok.Data;
 //import lombok.AllArgsConstructor;
-import lombok.Builder;
+//import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@Builder
+//@Builder
 public class Item {
 	public String name;
 	public double price;

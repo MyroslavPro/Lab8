@@ -1,7 +1,8 @@
 package ua.lviv.iot.fishStore;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.SpringApplication;
+
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 import ua.lviv.iot.fishStore.Type;
 import ua.lviv.iot.fishStore.Kind;
 import ua.lviv.iot.fishStore.Freezing;
@@ -10,7 +11,6 @@ import ua.lviv.iot.fishStore.ShopManager;
 import ua.lviv.iot.fishStore.Fish;
 import ua.lviv.iot.fishStore.Item;
 
-@SpringBootApplication
 public class App {
 	public static void main(String[] args) {
 		ShopManager Alex = new ShopManager();
