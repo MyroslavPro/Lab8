@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Item {
-
+	public int id;
 	public String name;
 	public double price;
 	public String country;
