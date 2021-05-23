@@ -1,13 +1,11 @@
 # Lab8
 
 Task:
-    -Create console program using Java and implement code for class diagram from Lab 2.
-    -Use plugins:
-    [Jacoco](https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin),
-    [PMD](https://maven.apache.org/plugins/maven-pmd-plugin/download.cgi),
-    [Checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/checkstyle-mojo.html).
-
-How to run:
-    -Clone branch/download the hole folder from git, open CMD/open IDE(run the App.java).
-    -Run javac App.java
-    -Run App.java
+1)Write code for Lab (2-3-8) 
+2)Build REST service
+3)Use JAX-RS
+4)Create ArmamentController and implement GET/POST/PUT/DELETE
+5)Check code with findbags/checkstyle/pmd plugins
+6)Code from ArmamentController and RestApplication must be in different packages
+7)Use Map for saving objects
+8)modify your pom.xml
