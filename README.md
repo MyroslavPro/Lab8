@@ -1,11 +1,10 @@
 # Lab8
 
+JavaMavenSource
 Task:
-1)Write code for Lab (2-3-8) 
-2)Build REST service
-3)Use JAX-RS
-4)Create ArmamentController and implement GET/POST/PUT/DELETE
-5)Check code with findbags/checkstyle/pmd plugins
-6)Code from ArmamentController and RestApplication must be in different packages
-7)Use Map for saving objects
-8)modify your pom.xml
+	1.Create a REST service and implement CRUD operations
+	2.To implement REST service base class from 8-th lab create field id
+	3.use plugins findbugs, checkstyle and pmd
+	4.Code must be added as a separate pull request
+	5.The code must contain class Controller, Service and Repository interface
+	6.Database access should be configured through the properties file
