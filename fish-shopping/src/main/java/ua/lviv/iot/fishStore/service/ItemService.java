@@ -12,6 +12,7 @@ import org.springframework.web.context.annotation.ApplicationScope;
 import ua.lviv.iot.fishStore.Item;
 
 
+@Data
 @Service
 @ApplicationScope
 public class ItemService {
@@ -36,5 +37,9 @@ public class ItemService {
 
 	public Item getItem(Integer id) {
 		return itemsMap.get(id);
-	}	
+	}
+	
+	public Item deleteItem(Integer id) {
+		return itemsMap.remove(id);
+    	}	
 }

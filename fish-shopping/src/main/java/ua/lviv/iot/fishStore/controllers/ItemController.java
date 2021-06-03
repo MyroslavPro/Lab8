@@ -42,4 +42,13 @@ public class ItemController {
 	            return new ResponseEntity<Item>(HttpStatus.NOT_FOUND);
 	        }
 	    }
+
+	    @DeleteMapping(path = "/{id}")
+    	    public ResponseEntity<Item> deleteItem(@PathVariable Integer id){
+            	if (itemService.getItemsMap().containsKey(id)) {
+            	    return new ResponseEntity<>(itemService.deleteItem(id), HttpStatus.OK);
+		}
+		else {
+	            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 }
+
